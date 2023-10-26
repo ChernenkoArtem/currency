@@ -1,0 +1,19 @@
+.currency-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 10px 0 10px;
+  background-color: #15202b;
+  color: #fff;
+
+  .set-currency {
+    display: flex;
+    align-items: center;
+
+    .image {
+      max-width: 100px;
+      margin-right: 10px;
+    }
+  }
+}

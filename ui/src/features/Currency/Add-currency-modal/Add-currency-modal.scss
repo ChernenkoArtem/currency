@@ -1,0 +1,16 @@
+.modal__wrapp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 20px;
+  background-color: beige;
+  border: 2px solid #000;
+  box-shadow: 24;
+
+  .actions {
+    display: flex;
+    justify-content: end;
+  }
+}
